@@ -1,0 +1,7436 @@
+##
+COMPOS
+IDCOMPOS=276
+IDPROGRAMA=8
+DESCRIPCION='Ticket Lodemo Gulf SCB'
+TITULO='Ticket Lodemo Gulf SCB'
+COMPOSICION=21474837684
+IDENTIFICACION=0
+EXCLUSIVO=0
+GLOBAL=0
+IDTIPO=7
+BASESDEDATOS= NULL
+FECHAALTA= '11/16/18 12:48:17'
+FECHAMODI= '04/08/20 15:04:15'
+IDCLASIFICA=0
+ACCESO=0
+IDAGRUPACIO= NULL
+EXPORTADO=0
+ULTUSUARIO=0
+IDCREADOR=5
+IDINFORME=1204
+STRIDENT='5.1204'
+STRDESCRIPCION='5.1204 - Ticket Lodemo Gulf SCB'
+OBSERVACIONES= NULL
+LINEASCABECERA= NULL
+LINEASCUERPO= NULL
+VISIBILIDAD=3
+VISIBLE=1
+IDUSERCREADOR='AVILASECA'
+IDUSERULTIMAMODI='AVILASECA'
+NUMVERSION=26
+NUMREVISION=0
+NUMCAMBIO=163
+ESTADO=1
+IDUSERVALIDACION='AVILASECA'
+COMENTARIOVALID= NULL
+BLOQUEO=0
+NOVEDAD=0
+||
+##
+AGRUPACIO
+IDAGRUPACION=0
+DESCRIPCION='Global'
+IDTIPO=-1
+IDENTIFICACION=0
+EXCLUSIVO=0
+||
+##
+CLASIFICACIONES
+IDCLASIFICACION=0
+DESCRIPCION='SIN ASIGNAR'
+IDMASTER= NULL
+||
+##
+PROGRAMAS
+IDPROGRAMA=8
+DESCRIPCION='TPV 3'
+||
+##
+TIPOREPORT
+IDTIPO=1
+DESCRIPCION='Tickets'
+IDPROGRAMA=8
+||
+IDTIPO=2
+DESCRIPCION='Albarans'
+IDPROGRAMA=8
+||
+IDTIPO=4
+DESCRIPCION='Factura'
+IDPROGRAMA=8
+||
+IDTIPO=65536
+DESCRIPCION='Cambio precios'
+IDPROGRAMA=8
+||
+IDTIPO=32768
+DESCRIPCION='Consulta BP'
+IDPROGRAMA=8
+||
+IDTIPO=16
+DESCRIPCION='Ticket Caja'
+IDPROGRAMA=8
+||
+IDTIPO=32
+DESCRIPCION='Turnos'
+IDPROGRAMA=8
+||
+IDTIPO=64
+DESCRIPCION='Exportación Ascii'
+IDPROGRAMA=8
+||
+IDTIPO=8
+DESCRIPCION='Cierre Turno'
+IDPROGRAMA=8
+||
+IDTIPO=128
+DESCRIPCION='Resumen recaudación'
+IDPROGRAMA=8
+||
+IDTIPO=512
+DESCRIPCION='Tiquet regalo'
+IDPROGRAMA=8
+||
+IDTIPO=256
+DESCRIPCION='Abrir Cajon'
+IDPROGRAMA=8
+||
+IDTIPO=1024
+DESCRIPCION='Clientes'
+IDPROGRAMA=8
+||
+IDTIPO=2048
+DESCRIPCION='Gestión Productos'
+IDPROGRAMA=8
+||
+IDTIPO=4096
+DESCRIPCION='Almacenes'
+IDPROGRAMA=8
+||
+IDTIPO=262144
+DESCRIPCION='Reintegros'
+IDPROGRAMA=8
+||
+IDTIPO=35184372088832
+DESCRIPCION='Reintegros'
+IDPROGRAMA=8
+||
+IDTIPO=524288
+DESCRIPCION='Totales TPVPC'
+IDPROGRAMA=8
+||
+IDTIPO=16384
+DESCRIPCION='Tanques'
+IDPROGRAMA=8
+||
+IDTIPO=8192
+DESCRIPCION='Totalizadores'
+IDPROGRAMA=8
+||
+IDTIPO=17592186044416
+DESCRIPCION='Etiquetas PDA'
+IDPROGRAMA=8
+||
+##
+OPCIONES
+IDCOMPOS=276
+IDOPCIONES=847
+NUL=0
+DESCRIPCION='IDVENTA'
+CAMPOREAL='IDVENTA'
+DEFAULTVALUE= NULL
+IDBD= NULL
+CONSULTA= NULL
+CAMPOID= NULL
+CAMPOTEXTO= NULL
+RESULTADO= NULL
+IDCONSULTA= NULL
+OBLIGATORIO=0
+ORDEN=100
+VARIASOPCIONES=0
+||
+IDCOMPOS=276
+IDOPCIONES=848
+NUL=0
+DESCRIPCION='idticket'
+CAMPOREAL='idticket'
+DEFAULTVALUE= NULL
+IDBD= NULL
+CONSULTA= NULL
+CAMPOID= NULL
+CAMPOTEXTO= NULL
+RESULTADO= NULL
+IDCONSULTA= NULL
+OBLIGATORIO=0
+ORDEN=100
+VARIASOPCIONES=0
+||
+IDCOMPOS=276
+IDOPCIONES=849
+NUL=0
+DESCRIPCION='idfactura'
+CAMPOREAL='idfactura'
+DEFAULTVALUE= NULL
+IDBD= NULL
+CONSULTA= NULL
+CAMPOID= NULL
+CAMPOTEXTO= NULL
+RESULTADO= NULL
+IDCONSULTA= NULL
+OBLIGATORIO=0
+ORDEN=100
+VARIASOPCIONES=0
+||
+IDCOMPOS=276
+IDOPCIONES=853
+NUL=0
+DESCRIPCION='YENA'
+CAMPOREAL='YENA'
+DEFAULTVALUE= NULL
+IDBD= NULL
+CONSULTA= NULL
+CAMPOID= NULL
+CAMPOTEXTO= NULL
+RESULTADO= NULL
+IDCONSULTA= NULL
+OBLIGATORIO=0
+ORDEN=100
+VARIASOPCIONES=0
+||
+##
+COMPOSBD
+IDCOMPOS=276
+IDBDCOMPOS=238
+DESCRIPCION='TPV3'
+TIPOBD=3
+||
+##
+CQMP
+IDCOMPOS=276
+IDNUMERO=289
+IDREPORT=283
+||
+IDCOMPOS=276
+IDNUMERO=281
+IDREPORT=281
+||
+IDCOMPOS=276
+IDNUMERO=283
+IDREPORT=282
+||
+IDCOMPOS=276
+IDNUMERO=288
+IDREPORT=280
+||
+##
+QRP
+IDREPORT=280
+DESCRIPCION='Tiquet redención Yena cliente SCB'
+REPORT=¡¡
+object TAE2_QuickRep
+  Left = 0
+  Top = 0
+  Width = 378
+  Height = 1890
+  Frame.Color = clBlack
+  Frame.DrawTop = False
+  Frame.DrawBottom = False
+  Frame.DrawLeft = False
+  Frame.DrawRight = False
+  DataSet = Query101
+  Description.Strings = (
+    'Hola pepeta')
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = '12.5 cpi [Euro]'
+  Font.Style = []
+  Functions.Strings = (
+    'PAGENUMBER'
+    'COLUMNNUMBER'
+    'REPORTTITLE')
+  Functions.DATA = (
+    '0'
+    '0'
+    #39#39)
+  Options = [FirstPageHeader, LastPageFooter]
+  Page.Columns = 1
+  Page.Orientation = poPortrait
+  Page.PaperSize = Custom
+  Page.Values = (
+    0.000000000000000000
+    5000.000000000000000000
+    0.000000000000000000
+    1000.000000000000000000
+    0.000000000000000000
+    0.000000000000000000
+    0.000000000000000000)
+  PrinterSettings.Copies = 1
+  PrinterSettings.OutputBin = First
+  PrinterSettings.Duplex = False
+  PrinterSettings.FirstPage = 0
+  PrinterSettings.LastPage = 0
+  PrinterSettings.UseStandardprinter = False
+  PrinterSettings.UseCustomBinCode = False
+  PrinterSettings.CustomBinCode = 0
+  PrinterSettings.ExtendedDuplex = 1
+  PrinterSettings.UseCustomPaperCode = False
+  PrinterSettings.CustomPaperCode = 0
+  PrinterSettings.PrintMetaFile = False
+  PrintIfEmpty = False
+  SnapToGrid = True
+  Units = MM
+  Zoom = 100
+  PrevFormStyle = fsNormal
+  PreviewInitialState = wsNormal
+  Exportable = [expCSV]
+  ImpresoraAgulles = True
+  object DetailBand1: TQRBand
+    Left = 0
+    Top = 0
+    Width = 378
+    Height = 426
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    Size.Values = (
+      1127.125000000000000000
+      1000.125000000000000000)
+    BandType = rbDetail
+    object TQRExpr
+      Left = 1
+      Top = 254
+      Width = 312
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        672.041666666666700000
+        825.500000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = False
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Fecha: '#39' + COPY(Query101.FECHAHORA + repeat('#39' '#39', 16), 1, 16)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -2
+      Top = 20
+      Width = 338
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -5.291666666666667000
+        52.916666666666670000
+        894.291666666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29, 33, 1) + Query101.NOMBREEMPRESA1'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -2
+      Top = 38
+      Width = 352
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -5.291666666666667000
+        100.541666666666700000
+        931.333333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29, 33, 0) + '#39'Suc: '#39'+Query101.NOMBREBASE1'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -2
+      Top = 56
+      Width = 322
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -5.291666666666667000
+        148.166666666666700000
+        851.958333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'N'#186' E.S. G'#39'+Query101.NUMES+'#39'  SIIC. '#39'+Query101.SIIC'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -2
+      Top = 1
+      Width = 295
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -5.291666666666667000
+        2.645833333333333000
+        780.520833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(27, 64, 27, 32, 2, 27, 51, 3, 27, 33, 0)'
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 1
+      Top = 236
+      Width = 9
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        624.416666666666700000
+        23.812500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 74
+      Width = 174
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        195.791666666666700000
+        460.375000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'Query101.DIRECCIONBASE1'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 92
+      Width = 520
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        243.416666666666700000
+        1375.833333333333000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        #39'C.P. '#39'+Query101.CPESTABLECIMIENTO+'#39' '#39'+Query101.POBLACIONESTABLE' +
+        'CIMIENTO'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 128
+      Width = 259
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        338.666666666666700000
+        685.270833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Matriz: '#39'+Query101.DIRECCIONEMPRESA1'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 146
+      Width = 410
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        386.291666666666700000
+        1084.791666666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'C.P. '#39'+Query101.CPEMPRESA+'#39' '#39'+Query101.POBLACIONEMPRESA'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 164
+      Width = 196
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        433.916666666666700000
+        518.583333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'Query101.PROVINCIAEMPRESA'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 182
+      Width = 198
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        481.541666666666700000
+        523.875000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'RFC: '#39'+Query101.RFCEMPRESA'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 110
+      Width = 251
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        291.041666666666700000
+        664.104166666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'Query101.PROVINCIAESTABLECIMIENTO'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 272
+      Width = 380
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        719.666666666666700000
+        1005.416666666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Folio  : '#39' + Query559.SUMINISTRO + '#39' - '#39' + Query101.ALBARAN'
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 0
+      Top = 290
+      Width = 9
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        0.000000000000000000
+        767.291666666666700000
+        23.812500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 218
+      Width = 121
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        576.791666666666700000
+        320.145833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'Query101.REGIMEN'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 200
+      Width = 343
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        529.166666666666700000
+        907.520833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Expedido en: '#39'+Query101.PROVINCIAESTABLECIMIENTO'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 308
+      Width = 232
+      Height = 18
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        47.625000000000000000
+        0.000000000000000000
+        814.916666666666700000
+        613.833333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Tipo operaci'#243'n: '#39'+Query101.TIPOPAGO'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 327
+      Width = 239
+      Height = 18
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        47.625000000000000000
+        0.000000000000000000
+        865.187500000000000000
+        632.354166666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Folio de seguimiento: '#39'+Query568.FOLIO'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 346
+      Width = 206
+      Height = 18
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        47.625000000000000000
+        0.000000000000000000
+        915.458333333333300000
+        545.041666666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Sesi'#243'n  : '#39'+Query559.SESSION_ID'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 365
+      Width = 274
+      Height = 18
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        47.625000000000000000
+        0.000000000000000000
+        965.729166666666700000
+        724.958333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Autoriz.: '#39'+Query559.AUTH_CODE_PAYMENT'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 384
+      Width = 263
+      Height = 18
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        47.625000000000000000
+        0.000000000000000000
+        1016.000000000000000000
+        695.854166666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Tarjeta : '#39'+Query559.TARJETAASTERISCOS'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 403
+      Width = 207
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        0.000000000000000000
+        1066.270833333333000000
+        547.687500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = '12.5 cpi [Euro]'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(27,33,0)+repeat('#39'-'#39', 32)'
+      FontSize = 10
+    end
+  end
+  object BSDQuery559: TQRSubDetail
+    Left = 0
+    Top = 426
+    Width = 378
+    Height = 122
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    LinkBand = DetailBand1
+    Size.Values = (
+      322.791666666666700000
+      1000.125000000000000000)
+    DataSet = Query559
+    PrintBefore = False
+    PrintIfEmpty = False
+    object TQRExpr
+      Left = 0
+      Top = 22
+      Width = 856
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        0.000000000000000000
+        58.208333333333330000
+        2264.833333333333000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'IF(Query559.TIPO='#39'APROBADA'#39', '#39'Importe del pago   :'#39', '#39'Intento de' +
+        ' pago    :'#39')+FORMATNUMERIC('#39'##0.000'#39', Query559.BENEFICIO_CONSUMI' +
+        'DO, 9)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 3
+      Width = 611
+      Height = 18
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        47.625000000000000000
+        0.000000000000000000
+        7.937500000000000000
+        1616.604166666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'IF(Query559.TIPO = '#39'APROBADA'#39', Query559.TIPO, Query559.TIPO + '#39'/' +
+        #39'+ Query559.ERROR_MESSAGE)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 40
+      Width = 487
+      Height = 18
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        47.625000000000000000
+        0.000000000000000000
+        105.833333333333300000
+        1288.520833333333000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        #39'Saldo actual       :'#39'+FORMATNUMERIC('#39'##0.000'#39', Query559.CURRENT' +
+        '_MONEY, 9)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 94
+      Width = 108
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        0.000000000000000000
+        248.708333333333300000
+        285.750000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'Query559.TEXTO1'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 59
+      Width = 207
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        0.000000000000000000
+        156.104166666666700000
+        547.687500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(27,33,0)+repeat('#39'-'#39', 32)'
+      FontSize = 10
+    end
+  end
+  object SummaryBand1: TQRBand
+    Left = 0
+    Top = 548
+    Width = 378
+    Height = 243
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    Size.Values = (
+      642.937500000000000000
+      1000.125000000000000000)
+    BandType = rbSummary
+    object TQRExpr
+      Left = 7
+      Top = 207
+      Width = 125
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        18.520833333333330000
+        547.687500000000000000
+        330.729166666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29,86,1)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 10
+      Top = 186
+      Width = 136
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        26.458333333333330000
+        492.125000000000000000
+        359.833333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(27,100, 5)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 400
+      Top = 273
+      Width = 154
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        1058.333333333333000000
+        722.312500000000000000
+        407.458333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29, 104, 125)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 447
+      Top = 265
+      Width = 140
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        1182.687500000000000000
+        701.145833333333300000
+        370.416666666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29, 119, 3)'
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 3
+      Top = 2
+      Width = 9
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        7.937500000000000000
+        5.291666666666667000
+        23.812500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 3
+      Top = 20
+      Width = 155
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        7.937500000000000000
+        52.916666666666670000
+        410.104166666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '       COPIA DEL CLIENTE'
+      Color = clWhite
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 8
+      Top = 78
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        21.166666666666670000
+        206.375000000000000000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 6
+      Top = 99
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        15.875000000000000000
+        261.937500000000000000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 7
+      Top = 126
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        18.520833333333330000
+        333.375000000000000000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 8
+      Top = 146
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        21.166666666666670000
+        386.291666666666700000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 7
+      Top = 165
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        18.520833333333330000
+        436.562500000000000000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 7
+      Top = 54
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        18.520833333333330000
+        142.875000000000000000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+  end
+end
+
+
+¡¡
+PLANTILLA=0
+NINFORME=21474837986
+IDENTIFICACION=0
+EXCLUSIVO=0
+FECHAALTA= '11/16/18 09:38:00'
+FECHAMODI= '08/22/19 19:30:22'
+NOMBREARCHIVO= NULL
+ULTUSUARIO=0
+IDCREADOR=5
+IDINFORME=1506
+STRIDENT='5.1506'
+STRDESCRIPCION='5.1506 - Tiquet redención Yena cliente SCB'
+IDUSERCREADOR='AVILASECA'
+IDUSERULTIMAMODI='AVILASECA'
+NUMVERSION=31
+NUMREVISION=0
+NUMCAMBIO=100
+||
+##
+QRY
+IDQUERY=101
+IDREPORT=280
+DESCRIPCION='CABECERA'
+TSELECT='SELECT V.*,B.*,E.*,T.IMPORTE,E.COMENTARIO NOMBREEMPRESA1,B.COMENTARIO REGIMEN,B.EMAIL NOMBREBASE1,B.NUMINSTALACION NUMES,B.CAE SIIC,B.DIRECCION DIRECCIONBASE1,B.CP CPESTABLECIMIENTO,B.POBLACION POBLACIONESTABLECIMIENTO,B.PROVINCIA PROVINCIAESTABLECIMIENTO,E.DIRECCION DIRECCIONEMPRESA1,E.CP CPEMPRESA,E.POBLACION POBLACIONEMPRESA,E.PROVINCIA PROVINCIAEMPRESA,E.NIF RFCEMPRESA'
+TFROM='FROM VR_VENTAS V LEFT JOIN BASES B ON V.IDBASE=B.IDBASE LEFT JOIN EMPRESAS E ON B.IDEMPRESA=E.IDEMPRESA LEFT JOIN TIPOSPAGO TP ON V.IDTIPOPAGO=TP.IDTIPOPAGO LEFT JOIN TOTALVENTA(V.IDVENTA) T ON 1=1'
+TWHERE='WHERE (TP.TIPOTERMINAL = 56) /*YENA*/ And (V.TICKETIMPRESO = 0)'
+ORDERBY= NULL
+TIPOBD=3
+MASTERQUERY=-1
+TIPOBANDA=1
+HASCHILD=0
+HASHEADER=0
+HASFOOTER=0
+TGROUPBY= NULL
+THAVING= NULL
+||
+IDQUERY=559
+IDREPORT=280
+DESCRIPCION='redencion'
+TSELECT='SELECT FIRST 1 (CASE WHEN S.IDSUMINISTRO IS NULL THEN ''DENEGADA'' ELSE ''APROBADA'' END) TIPO, T.TEXTO1, SB.*,  S.NSUMINISTRO SUMINISTRO,LTRIM(JUSTIFICASTR(SUBSTR(SB.TARJETA,(STRLEN(SB.TARJETA)-3),STRLEN(SB.TARJETA)), STRLEN(SB.TARJETA), ''*'', 1)) TARJETAASTERISCOS'
+TFROM='FROM VENTAS V LEFT JOIN OPERACIONESBNC O ON V.IDVENTA = O.IDVENTA LEFT JOIN SUMINISTROS_BENEFICIO SB ON O.IDOPERACIONBNC = SB.IDOPERACIONBNC LEFT JOIN SUMINISTROS S ON SB.IDSUMINISTRO = S.IDSUMINISTRO LEFT JOIN PR_TEXTOSYENA(NULL, NULL) T ON 1=1'
+TWHERE='WHERE (V.IDVENTA = :IDVENTA) AND (SB.IDOPERACIONBNC IS NOT NULL)'
+ORDERBY='order by 1'
+TIPOBD=3
+MASTERQUERY=101
+TIPOBANDA=2
+HASCHILD=0
+HASHEADER=1
+HASFOOTER=1
+TGROUPBY= NULL
+THAVING= NULL
+||
+IDQUERY=568
+IDREPORT=280
+DESCRIPCION='FOLIO'
+TSELECT='SELECT O.IDOPERACIONBNC FOLIO'
+TFROM='FROM VENTAS V LEFT JOIN OPERACIONESBNC O ON V.IDVENTA = O.IDVENTA'
+TWHERE='WHERE (V.IDVENTA = :IDVENTA) AND (O.TIPOOPERACION = 11)'
+ORDERBY= NULL
+TIPOBD=3
+MASTERQUERY=101
+TIPOBANDA=2
+HASCHILD=0
+HASHEADER=0
+HASFOOTER=0
+TGROUPBY= NULL
+THAVING= NULL
+||
+##
+FILTROS
+IDFILTRO=1598
+IDQUERY=101
+IDREPORT=280
+NCAMPO='V.IDVENTA'
+TVARIABLE='IDVENTA'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1599
+IDQUERY=101
+IDREPORT=280
+NCAMPO='V.IDVENTA'
+TVARIABLE='IDTIQUET'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1600
+IDQUERY=101
+IDREPORT=280
+NCAMPO='V.IDVENTA'
+TVARIABLE='IDFACTURA'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1601
+IDQUERY=101
+IDREPORT=280
+NCAMPO='V.IDPRINCIPAL'
+TVARIABLE='IDVENTA2'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1602
+IDQUERY=101
+IDREPORT=280
+NCAMPO='V.IDPRINCIPAL'
+TVARIABLE='IDTIQUET2'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1603
+IDQUERY=101
+IDREPORT=280
+NCAMPO='V.IDPRINCIPAL'
+TVARIABLE='IDFACTURA2'
+OPERACION='='
+TIPO=3
+||
+##
+QRP
+IDREPORT=281
+DESCRIPCION='Ticket Self YENA SCB'
+REPORT=¡¡
+object TAE2_QuickRep
+  Left = 0
+  Top = 0
+  Width = 378
+  Height = 1890
+  Frame.Color = clBlack
+  Frame.DrawTop = False
+  Frame.DrawBottom = False
+  Frame.DrawLeft = False
+  Frame.DrawRight = False
+  DataSet = Query101
+  Description.Strings = (
+    'Hola pepeta')
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = '12.5 cpi [Euro]'
+  Font.Style = []
+  Functions.Strings = (
+    'PAGENUMBER'
+    'COLUMNNUMBER'
+    'REPORTTITLE')
+  Functions.DATA = (
+    '0'
+    '0'
+    #39#39)
+  Options = [FirstPageHeader, LastPageFooter]
+  Page.Columns = 1
+  Page.Orientation = poPortrait
+  Page.PaperSize = Custom
+  Page.Values = (
+    0.000000000000000000
+    5000.000000000000000000
+    0.000000000000000000
+    1000.000000000000000000
+    0.000000000000000000
+    0.000000000000000000
+    0.000000000000000000)
+  PrinterSettings.Copies = 1
+  PrinterSettings.OutputBin = First
+  PrinterSettings.Duplex = False
+  PrinterSettings.FirstPage = 0
+  PrinterSettings.LastPage = 0
+  PrinterSettings.UseStandardprinter = False
+  PrinterSettings.UseCustomBinCode = False
+  PrinterSettings.CustomBinCode = 0
+  PrinterSettings.ExtendedDuplex = 1
+  PrinterSettings.UseCustomPaperCode = False
+  PrinterSettings.CustomPaperCode = 0
+  PrinterSettings.PrintMetaFile = False
+  PrintIfEmpty = True
+  SnapToGrid = True
+  Units = MM
+  Zoom = 100
+  PrevFormStyle = fsNormal
+  PreviewInitialState = wsNormal
+  Exportable = [expCSV]
+  ImpresoraAgulles = True
+  object DetailBand1: TQRBand
+    Left = 0
+    Top = 0
+    Width = 378
+    Height = 567
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    Size.Values = (
+      1500.187500000000000000
+      1000.125000000000000000)
+    BandType = rbDetail
+    object TQRExpr
+      Left = 1
+      Top = 289
+      Width = 380
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        764.645833333333300000
+        1005.416666666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Ticket  : '#39' + Query101.SUMINISTRO + '#39' - '#39' + Query101.ALBARAN'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 253
+      Width = 340
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        669.395833333333300000
+        899.583333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = False
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Fecha: '#39' + COPY(Query101.FECHAHORA + repeat('#39' '#39', 16), 1, 16)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -2
+      Top = 20
+      Width = 338
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -5.291666666666667000
+        52.916666666666670000
+        894.291666666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29, 33, 1) + Query101.NOMBREEMPRESA1'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -2
+      Top = 38
+      Width = 352
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -5.291666666666667000
+        100.541666666666700000
+        931.333333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29, 33, 0) + '#39'Suc: '#39'+Query101.NOMBREBASE1'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -2
+      Top = 56
+      Width = 322
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -5.291666666666667000
+        148.166666666666700000
+        851.958333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'N'#186' E.S. G'#39'+Query101.NUMES+'#39'  SIIC. '#39'+Query101.SIIC'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 415
+      Width = 328
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        1098.020833333333000000
+        867.833333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      CanCutWords = True
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'if(Query101.CTP = 1, '#39'Cliente: '#39' + Query101.NOMBRE, '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 487
+      Width = 423
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        1288.520833333333000000
+        1119.187500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'if(Query101.NUMFACTURA <> 0, '#39'Factura    : '#39' + Query101.FACTURA,' +
+        ' '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 433
+      Width = 301
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        1145.645833333333000000
+        796.395833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'if(Query101.CTP = 1, '#39'Ident. : '#39' + Query101.PAN1, '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 451
+      Width = 352
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        1193.270833333333000000
+        931.333333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'if(Query101.CTP = 1, '#39'Placa  : '#39' + Query101.MATRICULA2, '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 541
+      Width = 79
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        1431.395833333333000000
+        209.020833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'repeat('#39'-'#39', 29) '
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -2
+      Top = 1
+      Width = 295
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -5.291666666666667000
+        2.645833333333333000
+        780.520833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(27, 64, 27, 32, 2, 27, 51, 3, 27, 33, 0)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 505
+      Width = 319
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        1336.145833333333000000
+        844.020833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'if(Query101.DEVUELTO > 0, '#39'           DEVOLUCI'#211'N'#39', '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 469
+      Width = 286
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        1240.895833333333000000
+        756.708333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'if(Query101.KM > 0, '#39'Km     : '#39' + Query101.KM, '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 271
+      Width = 366
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        717.020833333333300000
+        968.375000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'if(Query101.TICKETIMPRESO > 0, '#39'     ***** ES COPIA *****'#39', '#39#39')'
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 1
+      Top = 235
+      Width = 9
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        621.770833333333300000
+        23.812500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 74
+      Width = 174
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        195.791666666666700000
+        460.375000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'Query101.DIRECCIONBASE1'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 92
+      Width = 520
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        243.416666666666700000
+        1375.833333333333000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        #39'C.P. '#39'+Query101.CPESTABLECIMIENTO+'#39' '#39'+Query101.POBLACIONESTABLE' +
+        'CIMIENTO'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 128
+      Width = 259
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        338.666666666666700000
+        685.270833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Matriz: '#39'+Query101.DIRECCIONEMPRESA1'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 146
+      Width = 410
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        386.291666666666700000
+        1084.791666666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'C.P. '#39'+Query101.CPEMPRESA+'#39' '#39'+Query101.POBLACIONEMPRESA'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 164
+      Width = 196
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        433.916666666666700000
+        518.583333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'Query101.PROVINCIAEMPRESA'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 181
+      Width = 198
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        478.895833333333300000
+        523.875000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'RFC: '#39'+Query101.RFCEMPRESA'
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 1
+      Top = 397
+      Width = 13
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        1050.395833333333000000
+        34.395833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '   '
+      Color = clWhite
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 110
+      Width = 251
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        291.041666666666700000
+        664.104166666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'Query101.PROVINCIAESTABLECIMIENTO'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 199
+      Width = 343
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        526.520833333333300000
+        907.520833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Expedido en: '#39'+Query101.PROVINCIAESTABLECIMIENTO'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 217
+      Width = 121
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        574.145833333333300000
+        320.145833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'Query101.REGIMEN'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 3
+      Top = 310
+      Width = 240
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        7.937500000000000000
+        820.208333333333300000
+        635.000000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Tipo operaci'#243'n: '#39' + Query101.TIPOPAGO'
+      FontSize = 10
+    end
+  end
+  object BGHQuery558: TQRCustomBand
+    Left = 0
+    Top = 724
+    Width = 378
+    Height = 653
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    LinkBand = BSDQuery558
+    Size.Values = (
+      1727.729166666667000000
+      1000.125000000000000000)
+    object TQRExpr
+      Left = 2
+      Top = 3
+      Width = 79
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        7.937500000000000000
+        209.020833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = '12.5 cpi [Euro]'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'repeat('#39'-'#39', 29) '
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 42
+      Width = 466
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        111.125000000000000000
+        1232.958333333333000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'IF(Query101.TRANSACCION<>'#39#39','#39'Transacci'#243'n: '#39' + Query101.TRANSACCI' +
+        'ON,'#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 60
+      Width = 455
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        158.750000000000000000
+        1203.854166666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'if(Query101.TERMINALBNC <>'#39#39', '#39'Terminal   : '#39' + Query101.TERMINA' +
+        'LBNC, '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 78
+      Width = 384
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        206.375000000000000000
+        1016.000000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'if(Query101.COMERC <>'#39#39', '#39'Comercio   : '#39' + Query101.COMERC, '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 96
+      Width = 503
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        254.000000000000000000
+        1330.854166666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'if((Query101.DEVUELTO > 0) OR (Query101.RECIBIDO > Query101.IMPO' +
+        'RTE), '#39'    '#39', '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 114
+      Width = 935
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        301.625000000000000000
+        2473.854166666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'if((Query101.DEVUELTO > 0) OR (Query101.RECIBIDO > Query101.IMPO' +
+        'RTE), '#39'Importe pagado  : '#39' + FORMATNUMERIC('#39'#,##0.00'#39', Query101.' +
+        'RECIBIDO, 8), '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 133
+      Width = 1497
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        351.895833333333300000
+        3960.812500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'if(Query101.DEVUELTO > 0, '#39'Importe devuelto: '#39' + FORMATNUMERIC('#39 +
+        '#,##0.00'#39', Query101.DEVUELTO, 8), if((Query101.RECIBIDO > Query1' +
+        '01.IMPORTE), '#39'A devolver      : '#39' + FORMATNUMERIC('#39'#,##0.00'#39', Qu' +
+        'ery101.RECIBIDO - Query101.IMPORTE, 8), '#39#39'))'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 152
+      Width = 132
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        402.166666666666700000
+        349.250000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(27, 33, 0)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -1
+      Top = 168
+      Width = 159
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -2.645833333333333000
+        444.500000000000000000
+        420.687500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'I.V.A. inclu'#237'do en el precio'#39
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -1
+      Top = 222
+      Width = 132
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -2.645833333333333000
+        587.375000000000000000
+        349.250000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(27, 33, 0)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -1
+      Top = 240
+      Width = 262
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -2.645833333333333000
+        635.000000000000000000
+        693.208333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = False
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = '12.5 cpi [Euro]'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'if(Query101.puntos > 0, '#39'T. puntos: '#39' + Query101.PAN, '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -1
+      Top = 258
+      Width = 262
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -2.645833333333333000
+        682.625000000000000000
+        693.208333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = False
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = '12.5 cpi [Euro]'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'if(Query101.puntos > 0, '#39'Puntos venta     : '#39' + formatnumeric('#39'#' +
+        ',##0'#39', sum(Query101.puntos), 7), '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -1
+      Top = 276
+      Width = 632
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -2.645833333333333000
+        730.250000000000000000
+        1672.166666666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = '12.5 cpi [Euro]'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'if(Query101.PuntosAcum <> 0, '#39'Puntos acumulados: '#39'  + formatnume' +
+        'ric('#39'#,##0'#39', Query101.PuntosAcum, 7), '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -1
+      Top = 294
+      Width = 1532
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -2.645833333333333000
+        777.875000000000000000
+        4053.416666666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'EscapeFunc(27,33,0)+'#39#161'MUCHAS GRACIAS POR SU VISITA!'#39'+if(Query101' +
+        '.TICKETIMPRESO = 0, IF(Query101.imprime = 0,'#39#39','#39'                ' +
+        '                          ESTIMADO CLIENTE TIENE HASTA EL ULTIMO' +
+        ' DIA DEL MES PARA GENERAR SU FACTURA                       '#39'), '#39 +
+        #39') '
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -1
+      Top = 330
+      Width = 132
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -2.645833333333333000
+        873.125000000000000000
+        349.250000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(27, 33, 0)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 348
+      Width = 842
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        0.000000000000000000
+        920.750000000000000000
+        2227.791666666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = True
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'if(Query101.TICKETIMPRESO = 0, IF(Query101.imprime = 0, '#39'DESCARG' +
+        'UE SUS FACTURAS EN:'#39', '#39'INSTRUCCIONES PARA FACTURAR: '#39'), '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -1
+      Top = 366
+      Width = 735
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -2.645833333333333000
+        968.375000000000000000
+        1944.687500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'if(Query101.TICKETIMPRESO = 0, IF(Query101.imprime = 0,'#39'www.gaso' +
+        'matic.com.mx'#39','#39'-Ingrese a www.gulfsureste.com.mx'#39'), '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -1
+      Top = 382
+      Width = 708
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -2.645833333333333000
+        1010.708333333333000000
+        1873.250000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'if(Query101.TICKETIMPRESO = 0, IF(Query101.imprime = 0,'#39#39','#39'-Sele' +
+        'ccione la estacion a la que corresponde su ticket'#39'), '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -1
+      Top = 401
+      Width = 686
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -2.645833333333333000
+        1060.979166666667000000
+        1815.041666666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'if(Query101.TICKETIMPRESO = 0, IF(Query101.imprime = 0,'#39#39','#39'-Ingr' +
+        'ese sus datos, el n'#250'mero de ticket y el importe'#39'), '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -3
+      Top = 419
+      Width = 926
+      Height = 18
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        47.625000000000000000
+        -7.937500000000000000
+        1108.604166666667000000
+        2450.041666666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = '12.5 cpi [Euro]'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'EscapeFunc(27, 77, 1)+EscapeFunc(29, 33, 17) +if(Query101.TICKET' +
+        'IMPRESO = 0, IF(Query101.imprime = 0,'#39#39','#39'Ticket: '#39' + Query101.CO' +
+        'DIGODEBARRAS2), '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -1
+      Top = 435
+      Width = 1630
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -2.645833333333333000
+        1150.937500000000000000
+        4312.708333333333000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Device Font 10cpi'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'EscapeFunc(29, 33, 1) +if(Query101.TICKETIMPRESO = 0, (EscapeFun' +
+        'c(29, 107, 73, length(Query101.CODIGODEBARRAS2) + 2, 123, 65)+Qu' +
+        'ery101.CODIGODEBARRAS2), (EscapeFunc(29, 107, 73, length(Query10' +
+        '1.NUMALBARAN2) + 2, 123, 65)+Query101.NUMALBARAN2))'
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = -1
+      Top = 457
+      Width = 31
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -2.645833333333333000
+        1209.145833333333000000
+        82.020833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '          '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 2
+      Top = 518
+      Width = 28
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        1370.541666666667000000
+        74.083333333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '         '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 536
+      Width = 398
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        1418.166666666667000000
+        1053.041666666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(27,33,0)+IF(Query566.YENA = 0, Query566.TEXTO3, '#39#39')'
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 3
+      Top = 555
+      Width = 9
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        7.937500000000000000
+        1468.437500000000000000
+        23.812500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 4
+      Top = 578
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        10.583333333333330000
+        1529.291666666667000000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 3
+      Top = 597
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        7.937500000000000000
+        1579.562500000000000000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 5
+      Top = 619
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        13.229166666666670000
+        1637.770833333333000000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 191
+      Width = 235
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        505.354166666666700000
+        621.770833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29, 33, 2)+'#39'              GULF'#39
+      FontSize = 10
+    end
+  end
+  object BSDQuery5: TQRSubDetail
+    Left = 0
+    Top = 567
+    Width = 378
+    Height = 157
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    LinkBand = DetailBand1
+    Size.Values = (
+      415.395833333333300000
+      1000.125000000000000000)
+    DataSet = Query5
+    PrintBefore = False
+    PrintIfEmpty = True
+    object TQRExpr
+      Left = -2
+      Top = 1
+      Width = 370
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.900000000000000000
+        -5.000000000000000000
+        2.600000000000000000
+        978.000000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = False
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      CanCutWords = True
+      LongChar = ' '
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Dispensario: '#39'+ Query5.NSURTIDOR'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 41
+      Width = 387
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        108.479166666666700000
+        1023.937500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        #39'Producto   : '#39' + COPY(Query5.CONCEPTO + repeat('#39' '#39', 22), 1, 22)' +
+        ' '
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 60
+      Width = 387
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        158.750000000000000000
+        1023.937500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        #39'Litros     : '#39' + FORMATNUMERIC('#39'#,##0.000'#39', Query5.Cantidad, 9)' +
+        ' '
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 101
+      Width = 607
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        267.229166666666700000
+        1606.020833333333000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'IF(Query101.TIPOTERMINAL<>6,'#39'Importe    : '#39' + FORMATNUMERIC('#39'#,#' +
+        '#0.00'#39', Query5.importesum, 8),'#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -1
+      Top = 79
+      Width = 598
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -2.645833333333333000
+        209.020833333333300000
+        1582.208333333333000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'IF(Query101.TIPOTERMINAL<>6,'#39'Precio     : '#39' + FORMATNUMERIC('#39'##0' +
+        '.000'#39', Query5.PrecioFinal, 9),'#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 119
+      Width = 676
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        314.854166666666700000
+        1788.583333333333000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'if(Query5.DESCUENTO > 0, '#39'Descuento     : '#39' + FORMATNUMERIC('#39'##0' +
+        '.000'#39', Query5.DESCUENTO, 9) + '#39' Euro/l'#39', '#39#39') '
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 138
+      Width = 750
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        365.125000000000000000
+        1984.375000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'if(Query5.DESCUENTOPORC > 0, '#39'Descuento     : '#39' + FORMATNUMERIC(' +
+        #39'###0.00'#39', Query5.DESCUENTOPORC*100, 9) + '#39'%'#39', '#39#39') '
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 21
+      Width = 206
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        55.562500000000000000
+        545.041666666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Cve. prod. : '#39' + Query5.CODIGONC'
+      FontSize = 10
+    end
+  end
+  object BSDQuery558: TQRSubDetail
+    Left = 0
+    Top = 1377
+    Width = 378
+    Height = 16
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    LinkBand = DetailBand1
+    Size.Values = (
+      42.333333333333330000
+      1000.125000000000000000)
+    DataSet = Query558
+    FooterBand = BGFQuery558
+    HeaderBand = BGHQuery558
+    PrintBefore = False
+    PrintIfEmpty = True
+  end
+  object SummaryBand1: TQRBand
+    Left = 0
+    Top = 1473
+    Width = 378
+    Height = 50
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    Size.Values = (
+      132.291666666666700000
+      1000.125000000000000000)
+    BandType = rbSummary
+    object TQRExpr
+      Left = 3
+      Top = 25
+      Width = 125
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        7.937500000000000000
+        66.145833333333330000
+        330.729166666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29,86,1)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 4
+      Top = 7
+      Width = 136
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        10.583333333333330000
+        18.520833333333330000
+        359.833333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(27,100, 5)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 400
+      Top = 273
+      Width = 154
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        1058.333333333333000000
+        722.312500000000000000
+        407.458333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29, 104, 125)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 447
+      Top = 265
+      Width = 140
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        1182.687500000000000000
+        701.145833333333300000
+        370.416666666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29, 119, 3)'
+      FontSize = 10
+    end
+  end
+  object BSDQuery101: TQRSubDetail
+    Left = 0
+    Top = 1433
+    Width = 378
+    Height = 40
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    LinkBand = DetailBand1
+    Size.Values = (
+      105.833333333333300000
+      1000.125000000000000000)
+    DataSet = Query101
+    PrintBefore = False
+    PrintIfEmpty = True
+  end
+  object BGFQuery558: TQRCustomBand
+    Left = 0
+    Top = 1393
+    Width = 378
+    Height = 40
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    LinkBand = BSDQuery558
+    Size.Values = (
+      105.833333333333300000
+      1000.125000000000000000)
+  end
+end
+
+¡¡
+PLANTILLA=0
+NINFORME=21474837987
+IDENTIFICACION=0
+EXCLUSIVO=0
+FECHAALTA= '11/16/18 12:48:17'
+FECHAMODI= '02/05/20 13:31:19'
+NOMBREARCHIVO= NULL
+ULTUSUARIO=0
+IDCREADOR=5
+IDINFORME=1507
+STRIDENT='5.1507'
+STRDESCRIPCION='5.1507 - Ticket Self YENA SCB'
+IDUSERCREADOR='AVILASECA'
+IDUSERULTIMAMODI='AVILASECA'
+NUMVERSION=26
+NUMREVISION=0
+NUMCAMBIO=64
+||
+##
+QRY
+IDQUERY=101
+IDREPORT=281
+DESCRIPCION='CABECERA'
+TSELECT='select  case TP.credito when 0 then 1 when 1 then (case   substring(bv1.pan from 1 for 12) when ''290000000000'' then 1 else 0 end) end as imprime, v.*, b.*, e.*, b.CIM || justificastr(s.nsuministro,6,0,1) CODIGODEBARRAS2, t.IMPORTE, p.puntos, bv.pan, p.puntosacum, TP.credito ctp, bv1.pan, opb.autorizacion, opb.terminalbnc, opb.comerc, opb.vpan , tp.tipoterminal, COALESCE(BV.NOMBRE, BV.MATRICULA) MATRICULA1, COALESCE(BV1.NOMBRE, BV1.MATRICULA) MATRICULA2, s.nsuministro suministro, s.fechahorafin, opb.transaccion, E.COMENTARIO NOMBREEMPRESA1, B.COMENTARIO REGIMEN, B.EMAIL NOMBREBASE1, B.NUMINSTALACION NUMES, B.CAE SIIC, B.DIRECCION DIRECCIONBASE1, B.CP CPESTABLECIMIENTO, B.POBLACION POBLACIONESTABLECIMIENTO, B.PROVINCIA PROVINCIAESTABLECIMIENTO, E.DIRECCION DIRECCIONEMPRESA1, E.CP CPEMPRESA, E.POBLACION POBLACIONEMPRESA, E.PROVINCIA PROVINCIAEMPRESA, E.NIF RFCEMPRESA, ''0'' || justificastr(V.NUMALBARAN,8,0,1) NUMALBARAN2, STRLEN(rtrim(ltrim(V.ALBARAN)))'
+TFROM='from vr_ventas v left join bases b on v.idbase=b.idbase left join empresas e on b.idempresa=e.idempresa left join binsventa bv on v.idventa=bv.idventa and bv.tipotarjeta=3 LEFT JOIN TIPOSPAGO TP ON V.IDTIPOPAGO=TP.IDTIPOPAGO left join binsventa bv1 on v.idventa=bv1.idventa and bv1.tipotarjeta=0 left join operacionesbnc opb on v.idventa=opb.idventa and opb.tipooperacion=11 and opb.bncresult = 1 and opb.status = 3 left join TOTALVENTA(v.IDVENTA) t on 1=1 left join puntosxventa(v.idventa) p on 1=1 left join lineasventa l on v.idventa = l.idventa left join suministros s on l.nsuministro = s.idsuministro'
+TWHERE='WHERE (:_P_YENA = 0)'
+ORDERBY= NULL
+TIPOBD=3
+MASTERQUERY=-1
+TIPOBANDA=1
+HASCHILD=0
+HASHEADER=0
+HASFOOTER=0
+TGROUPBY= NULL
+THAVING= NULL
+||
+IDQUERY=5
+IDREPORT=281
+DESCRIPCION='lineas'
+TSELECT='select L.*, P.*, S.importe importesum'
+TFROM='from lineasventa l left join productos p on l.idproducto = p.idproducto join suministros s on l.nsuministro=s.idsuministro'
+TWHERE='WHERE L.IDVENTA = :IDVENTA'
+ORDERBY= NULL
+TIPOBD=3
+MASTERQUERY=101
+TIPOBANDA=2
+HASCHILD=0
+HASHEADER=0
+HASFOOTER=0
+TGROUPBY= NULL
+THAVING= NULL
+||
+IDQUERY=70
+IDREPORT=281
+DESCRIPCION='codigodebarras'
+TSELECT='Select CODIGODEBARRAS, TIPOPAGO'
+TFROM='From CBSELF(:idventa)'
+TWHERE= NULL
+ORDERBY= NULL
+TIPOBD=3
+MASTERQUERY=101
+TIPOBANDA=2
+HASCHILD=0
+HASHEADER=0
+HASFOOTER=0
+TGROUPBY= NULL
+THAVING= NULL
+||
+IDQUERY=302
+IDREPORT=281
+DESCRIPCION='riesgo importe'
+TSELECT='SELECT R.IMPORTE'
+TFROM='FROM RIESGOS R'
+TWHERE='WHERE R.IDCLIENTE=:IDCLIENTE AND R.ACTIVO=1 AND :FECHAHORA BETWEEN R.FECHAINI AND R.FECHAFIN'
+ORDERBY= NULL
+TIPOBD=3
+MASTERQUERY=101
+TIPOBANDA=2
+HASCHILD=0
+HASHEADER=0
+HASFOOTER=0
+TGROUPBY= NULL
+THAVING= NULL
+||
+IDQUERY=558
+IDREPORT=281
+DESCRIPCION='subdetalle vacio'
+TSELECT='select b.*'
+TFROM='from bases b'
+TWHERE= NULL
+ORDERBY= NULL
+TIPOBD=3
+MASTERQUERY=101
+TIPOBANDA=2
+HASCHILD=0
+HASHEADER=1
+HASFOOTER=1
+TGROUPBY= NULL
+THAVING= NULL
+||
+IDQUERY=566
+IDREPORT=281
+DESCRIPCION='yena'
+TSELECT='SELECT FIRST 1 (CASE WHEN S.IDOPERACIONBNC IS NOT NULL THEN 1 ELSE 0 END) YENA, T.TEXTO3'
+TFROM='FROM VENTAS V LEFT JOIN OPERACIONESBNC O ON V.IDVENTA = O.IDVENTA LEFT JOIN SUMINISTROS_BENEFICIO S ON O.IDOPERACIONBNC = S.IDOPERACIONBNC LEFT JOIN PR_TEXTOSYENA(NULL, NULL) T ON 1=1'
+TWHERE='WHERE (V.IDVENTA = :IDVENTA)'
+ORDERBY='ORDER BY S.IDOPERACIONBNC'
+TIPOBD=3
+MASTERQUERY=101
+TIPOBANDA=2
+HASCHILD=0
+HASHEADER=0
+HASFOOTER=0
+TGROUPBY= NULL
+THAVING= NULL
+||
+##
+FILTROS
+IDFILTRO=1576
+IDQUERY=101
+IDREPORT=281
+NCAMPO='V.IDVENTA'
+TVARIABLE='IDVENTA'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1577
+IDQUERY=101
+IDREPORT=281
+NCAMPO='V.IDVENTA'
+TVARIABLE='IDFACTURA'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1578
+IDQUERY=101
+IDREPORT=281
+NCAMPO='V.IDVENTA'
+TVARIABLE='IDTICKET'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1579
+IDQUERY=101
+IDREPORT=281
+NCAMPO='V.IDPRINCIPAL'
+TVARIABLE='IDVENDA2'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1580
+IDQUERY=101
+IDREPORT=281
+NCAMPO='V.IDPRINCIPAL'
+TVARIABLE='IDFACTURA2'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1581
+IDQUERY=101
+IDREPORT=281
+NCAMPO='V.IDPRINCIPAL'
+TVARIABLE='IDTICKET2'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1582
+IDQUERY=70
+IDREPORT=281
+NCAMPO='IDVENTA'
+TVARIABLE='IDVENTA'
+OPERACION='P'
+TIPO=3
+||
+IDFILTRO=1596
+IDQUERY=101
+IDREPORT=281
+NCAMPO='_P_YENA'
+TVARIABLE='_P_YENA'
+OPERACION='P'
+TIPO=3
+||
+##
+QRP
+IDREPORT=282
+DESCRIPCION='Ticket Self YENA SCB promociones'
+REPORT=¡¡
+object TAE2_QuickRep
+  Left = 0
+  Top = 0
+  Width = 378
+  Height = 1890
+  Frame.Color = clBlack
+  Frame.DrawTop = False
+  Frame.DrawBottom = False
+  Frame.DrawLeft = False
+  Frame.DrawRight = False
+  DataSet = Query101
+  Description.Strings = (
+    'Hola pepeta')
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = '12.5 cpi [Euro]'
+  Font.Style = []
+  Functions.Strings = (
+    'PAGENUMBER'
+    'COLUMNNUMBER'
+    'REPORTTITLE')
+  Functions.DATA = (
+    '0'
+    '0'
+    #39#39)
+  Options = [FirstPageHeader, LastPageFooter]
+  Page.Columns = 1
+  Page.Orientation = poPortrait
+  Page.PaperSize = Custom
+  Page.Values = (
+    0.000000000000000000
+    5000.000000000000000000
+    0.000000000000000000
+    1000.000000000000000000
+    0.000000000000000000
+    0.000000000000000000
+    0.000000000000000000)
+  PrinterSettings.Copies = 1
+  PrinterSettings.OutputBin = First
+  PrinterSettings.Duplex = False
+  PrinterSettings.FirstPage = 0
+  PrinterSettings.LastPage = 0
+  PrinterSettings.UseStandardprinter = False
+  PrinterSettings.UseCustomBinCode = False
+  PrinterSettings.CustomBinCode = 0
+  PrinterSettings.ExtendedDuplex = 1
+  PrinterSettings.UseCustomPaperCode = False
+  PrinterSettings.CustomPaperCode = 0
+  PrinterSettings.PrintMetaFile = False
+  PrintIfEmpty = False
+  SnapToGrid = True
+  Units = MM
+  Zoom = 100
+  PrevFormStyle = fsNormal
+  PreviewInitialState = wsNormal
+  Exportable = [expCSV]
+  ImpresoraAgulles = True
+  object DetailBand1: TQRBand
+    Left = 0
+    Top = 0
+    Width = 378
+    Height = 329
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    Size.Values = (
+      870.479166666666700000
+      1000.125000000000000000)
+    BandType = rbDetail
+    object TQRExpr
+      Left = 1
+      Top = 253
+      Width = 241
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        669.395833333333300000
+        637.645833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = False
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Fecha: '#39' + COPY(Query101.FECHAHORAFIN + repeat('#39' '#39', 16), 1, 16)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -2
+      Top = 20
+      Width = 338
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -5.291666666666667000
+        52.916666666666670000
+        894.291666666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29, 33, 1) + Query101.NOMBREEMPRESA1'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -2
+      Top = 38
+      Width = 352
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -5.291666666666667000
+        100.541666666666700000
+        931.333333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29, 33, 0) + '#39'Suc: '#39'+Query101.NOMBREBASE1'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -2
+      Top = 56
+      Width = 322
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -5.291666666666667000
+        148.166666666666700000
+        851.958333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'N'#186' E.S. G'#39'+Query101.NUMES+'#39'  SIIC. '#39'+Query101.SIIC'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -2
+      Top = 1
+      Width = 295
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -5.291666666666667000
+        2.645833333333333000
+        780.520833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(27, 64, 27, 32, 2, 27, 51, 3, 27, 33, 0)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 74
+      Width = 174
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        195.791666666666700000
+        460.375000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'Query101.DIRECCIONBASE1'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 92
+      Width = 520
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        243.416666666666700000
+        1375.833333333333000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        #39'C.P. '#39'+Query101.CPESTABLECIMIENTO+'#39' '#39'+Query101.POBLACIONESTABLE' +
+        'CIMIENTO'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 128
+      Width = 259
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        338.666666666666700000
+        685.270833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Matriz: '#39'+Query101.DIRECCIONEMPRESA1'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 146
+      Width = 410
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        386.291666666666700000
+        1084.791666666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'C.P. '#39'+Query101.CPEMPRESA+'#39' '#39'+Query101.POBLACIONEMPRESA'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 164
+      Width = 196
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        433.916666666666700000
+        518.583333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'Query101.PROVINCIAEMPRESA'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 181
+      Width = 198
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        478.895833333333300000
+        523.875000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'RFC: '#39'+Query101.RFCEMPRESA'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 110
+      Width = 251
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        291.041666666666700000
+        664.104166666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'Query101.PROVINCIAESTABLECIMIENTO'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 271
+      Width = 211
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        717.020833333333300000
+        558.270833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Ticket  : '#39' + Query101.SUMINISTRO'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 199
+      Width = 343
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        526.520833333333300000
+        907.520833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Expedido en: '#39'+Query101.PROVINCIAESTABLECIMIENTO'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 217
+      Width = 121
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        574.145833333333300000
+        320.145833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'Query101.REGIMEN'
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 1
+      Top = 235
+      Width = 9
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        621.770833333333300000
+        23.812500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 289
+      Width = 243
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        764.645833333333300000
+        642.937500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Folio de seguimiento: '#39'+Query101.FOLIO'
+      FontSize = 10
+    end
+  end
+  object BGHQuery559: TQRCustomBand
+    Left = 0
+    Top = 329
+    Width = 378
+    Height = 74
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    LinkBand = BSDQuery559
+    Size.Values = (
+      195.791666666666700000
+      1000.125000000000000000)
+    object TQRExpr
+      Left = 1
+      Top = 2
+      Width = 388
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        5.291666666666667000
+        1026.583333333333000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = '12.5 cpi [Euro]'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'IF(Query559.IDVENTA > 0, EscapeFunc(27,33,0)+repeat('#39'-'#39', 32) , '#39 +
+        #39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 22
+      Width = 539
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        58.208333333333330000
+        1426.104166666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'IF(Query559.IDVENTA > 0, EscapeFunc(27,33,0)+'#39#161'FELICIDADES HAS S' +
+        'IDO GANADOR!'#39', '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 43
+      Width = 190
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        0.000000000000000000
+        113.770833333333300000
+        502.708333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'IF(Query559.IDVENTA > 0, '#39'  '#39', '#39#39')'
+      FontSize = 10
+    end
+  end
+  object BSDQuery559: TQRSubDetail
+    Left = 0
+    Top = 403
+    Width = 378
+    Height = 97
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    LinkBand = DetailBand1
+    Size.Values = (
+      256.645833333333300000
+      1000.125000000000000000)
+    DataSet = Query559
+    FooterBand = BGFQuery559
+    HeaderBand = BGHQuery559
+    PrintBefore = False
+    PrintIfEmpty = False
+    object TQRExpr
+      Left = 0
+      Top = 23
+      Width = 463
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        0.000000000000000000
+        60.854166666666670000
+        1225.020833333333000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'IF((Query559.IDVENTA > 0) AND (Query559.TITULO <> '#39#39'), Query559.' +
+        'TITULO, '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 3
+      Width = 803
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        7.937500000000000000
+        2124.604166666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'IF((Query559.IDVENTA > 0) AND (Query559.CODIGO <> '#39#39'), EscapeFun' +
+        'c(27,33,8)+'#39'C'#243'digo: '#39'+Query559.CODIGO+EscapeFunc(27,33,0), '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -1
+      Top = 43
+      Width = 499
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -2.645833333333333000
+        113.770833333333300000
+        1320.270833333333000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'IF((Query559.IDVENTA > 0) AND (Query559.VIGENCIA <> '#39#39'), Query55' +
+        '9.VIGENCIA, '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -1
+      Top = 66
+      Width = 190
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -2.645833333333333000
+        174.625000000000000000
+        502.708333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'IF(Query559.IDVENTA > 0, '#39'  '#39', '#39#39')'
+      FontSize = 10
+    end
+  end
+  object BSDQuery567: TQRSubDetail
+    Left = 0
+    Top = 553
+    Width = 378
+    Height = 271
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    LinkBand = DetailBand1
+    Size.Values = (
+      717.020833333333300000
+      1000.125000000000000000)
+    DataSet = Query567
+    PrintBefore = False
+    PrintIfEmpty = True
+    object TQRExpr
+      Left = 1
+      Top = 3
+      Width = 207
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        7.937500000000000000
+        547.687500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(27,33,0)+repeat('#39'-'#39', 32)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 21
+      Width = 783
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        55.562500000000000000
+        2071.687500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'if(Query567.BENEFICIO_OBTENIDO>0,   '#39'Beneficios YENA!   :'#39'+FORMA' +
+        'TNUMERIC('#39'##0.000'#39', Query567.BENEFICIO_OBTENIDO, 9),'#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 39
+      Width = 749
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        103.187500000000000000
+        1981.729166666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'if(Query567.BENEFICIO_OBTENIDO>0,'#39'Saldo actual YENA! :'#39'+FORMATNU' +
+        'MERIC('#39'##0.000'#39', Query567.CURRENT_MONEY, 9),'#39#39')'
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 1
+      Top = 57
+      Width = 9
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        150.812500000000000000
+        23.812500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 75
+      Width = 2093
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        198.437500000000000000
+        5537.729166666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'if(Query567.BENEFICIO_OBTENIDO>0,'#39'YENA! RECOMPENSA TU PREFERENCI' +
+        'A. POR SER CLIENTE '#39'+UPPER(Query567.level_name)+'#39'  AHORRASTE '#39'+Q' +
+        'uery567.level_DISCOUNT*100+'#39' CENTAVOS POR LITRO, EL CUAL HA SIDO' +
+        ' ACUMULADO DIRECTAMENTE EN TU TARJETA, CONSULTA T'#201'RMINOS Y CONDI' +
+        'CIONES EN WWW.YENA.COM.MX'#39','#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 93
+      Width = 450
+      Height = 18
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        47.625000000000000000
+        2.645833333333333000
+        246.062500000000000000
+        1190.625000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'if(Query567.BENEFICIO_OBTENIDO>0,EscapeFunc(27,33,0)+repeat('#39'-'#39',' +
+        ' 32),'#39#39')'
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 6
+      Top = 115
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        15.875000000000000000
+        304.270833333333300000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 7
+      Top = 141
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        18.520833333333330000
+        373.062500000000000000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 10
+      Top = 167
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        26.458333333333330000
+        441.854166666666700000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 9
+      Top = 186
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        23.812500000000000000
+        492.125000000000000000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 9
+      Top = 210
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        23.812500000000000000
+        555.625000000000000000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 8
+      Top = 230
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        21.166666666666670000
+        608.541666666666700000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+  end
+  object BGFQuery559: TQRCustomBand
+    Left = 0
+    Top = 500
+    Width = 378
+    Height = 53
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    LinkBand = BSDQuery559
+    Size.Values = (
+      140.229166666666700000
+      1000.125000000000000000)
+    object TQRExpr
+      Left = 1
+      Top = 5
+      Width = 513
+      Height = 23
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        60.854166666666670000
+        2.645833333333333000
+        13.229166666666670000
+        1357.312500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'IF(Query559.IDVENTA > 0, EscapeFunc(27,33,1)+'#39'Aplican en negocio' +
+        's participantes.'#39', '#39#39')'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 29
+      Width = 190
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        76.729166666666670000
+        502.708333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'IF(Query559.IDVENTA > 0, '#39'  '#39', '#39#39')'
+      FontSize = 10
+    end
+  end
+  object SummaryBand1: TQRBand
+    Left = 0
+    Top = 864
+    Width = 378
+    Height = 50
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    Size.Values = (
+      132.291666666666700000
+      1000.125000000000000000)
+    BandType = rbSummary
+    object TQRExpr
+      Left = 3
+      Top = 25
+      Width = 125
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        7.937500000000000000
+        66.145833333333330000
+        330.729166666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29,86,1)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 4
+      Top = 7
+      Width = 136
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        10.583333333333330000
+        18.520833333333330000
+        359.833333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(27,100, 5)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 400
+      Top = 273
+      Width = 154
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        1058.333333333333000000
+        722.312500000000000000
+        407.458333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29, 104, 125)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 447
+      Top = 265
+      Width = 140
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        1182.687500000000000000
+        701.145833333333300000
+        370.416666666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29, 119, 3)'
+      FontSize = 10
+    end
+  end
+  object BSDQuery101: TQRSubDetail
+    Left = 0
+    Top = 824
+    Width = 378
+    Height = 40
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    LinkBand = DetailBand1
+    Size.Values = (
+      105.833333333333300000
+      1000.125000000000000000)
+    DataSet = Query101
+    PrintBefore = False
+    PrintIfEmpty = True
+  end
+end
+
+
+¡¡
+PLANTILLA=0
+NINFORME=21474837988
+IDENTIFICACION=0
+EXCLUSIVO=0
+FECHAALTA= '11/16/18 12:48:17'
+FECHAMODI= '08/22/19 19:30:22'
+NOMBREARCHIVO= NULL
+ULTUSUARIO=0
+IDCREADOR=5
+IDINFORME=1508
+STRIDENT='5.1508'
+STRDESCRIPCION='5.1508 - Ticket Self YENA SCB promociones'
+IDUSERCREADOR='AVILASECA'
+IDUSERULTIMAMODI='AVILASECA'
+NUMVERSION=26
+NUMREVISION=0
+NUMCAMBIO=52
+||
+##
+QRY
+IDQUERY=101
+IDREPORT=282
+DESCRIPCION='CABECERA'
+TSELECT='SELECT FIRST 1 V.*, B.*, E.*, T.IMPORTE, S.NSUMINISTRO SUMINISTRO, S.FECHAHORAFIN, E.COMENTARIO NOMBREEMPRESA1, B.COMENTARIO REGIMEN, B.EMAIL NOMBREBASE1, B.NUMINSTALACION NUMES, B.CAE SIIC, B.DIRECCION DIRECCIONBASE1, B.CP CPESTABLECIMIENTO, B.POBLACION POBLACIONESTABLECIMIENTO, B.PROVINCIA PROVINCIAESTABLECIMIENTO, E.DIRECCION DIRECCIONEMPRESA1, E.CP CPEMPRESA, E.POBLACION POBLACIONEMPRESA, E.PROVINCIA PROVINCIAEMPRESA, E.NIF RFCEMPRESA,(CASE WHEN SB.PRINT_COUPONS = 1 THEN 1 ELSE 0 END) PRINT_COUPONS, O.IDOPERACIONBNC FOLIO'
+TFROM='FROM VR_VENTAS V LEFT JOIN BASES B ON V.IDBASE=B.IDBASE LEFT JOIN EMPRESAS E ON B.IDEMPRESA=E.IDEMPRESA LEFT JOIN TOTALVENTA(V.IDVENTA) T ON 1=1 LEFT JOIN LINEASVENTA L ON V.IDVENTA = L.IDVENTA LEFT JOIN SUMINISTROS S ON L.NSUMINISTRO = S.IDSUMINISTRO LEFT JOIN OPERACIONESBNC O ON V.IDVENTA = O.IDVENTA LEFT JOIN SUMINISTROS_BENEFICIO SB ON O.IDOPERACIONBNC = SB.IDOPERACIONBNC'
+TWHERE='WHERE (((V.TICKETIMPRESO = 0) OR (:_P_YENA = 1)) AND (SB.PRINT_COUPONS = 1) AND (SB.CUPONESIMPRESOS = 0))'
+ORDERBY= NULL
+TIPOBD=3
+MASTERQUERY=-1
+TIPOBANDA=1
+HASCHILD=0
+HASHEADER=0
+HASFOOTER=0
+TGROUPBY= NULL
+THAVING= NULL
+||
+IDQUERY=559
+IDREPORT=282
+DESCRIPCION='promociones'
+TSELECT='SELECT S.CODIGO, S.TITULO, S.VIGENCIA, L.IDVENTA'
+TFROM='FROM VENTAS V LEFT JOIN LINEASVENTA L ON V.IDVENTA = L.IDVENTA LEFT JOIN BINSVENTA BV ON V.IDVENTA = BV.IDVENTA LEFT JOIN SUMINISTROS_FIDELIDAD S ON L.NSUMINISTRO = S.IDSUMINISTRO'
+TWHERE='WHERE V.IDVENTA = :IDVENTA AND S.IDSUMINISTRO IS NOT NULL AND (BV.TIPOTARJETA = 1 OR BV.IDVENTA IS NULL)'
+ORDERBY='ORDER BY S.CSC'
+TIPOBD=3
+MASTERQUERY=101
+TIPOBANDA=2
+HASCHILD=0
+HASHEADER=1
+HASFOOTER=1
+TGROUPBY= NULL
+THAVING= NULL
+||
+IDQUERY=567
+IDREPORT=282
+DESCRIPCION='beneficios'
+TSELECT='SELECT FIRST 1 SB.*, T.TEXTO2'
+TFROM='FROM VENTAS V LEFT JOIN OPERACIONESBNC O ON V.IDVENTA = O.IDVENTA LEFT JOIN SUMINISTROS_BENEFICIO SB ON O.IDOPERACIONBNC= SB.IDOPERACIONBNC LEFT JOIN PR_TEXTOSYENA(SB.BENEFICIO_OBTENIDO, SB.LEVEL_NAME) T ON 1=1'
+TWHERE='WHERE (V.IDVENTA = :IDVENTA) AND (SB.IDOPERACIONBNC IS NOT NULL)'
+ORDERBY= NULL
+TIPOBD=3
+MASTERQUERY=101
+TIPOBANDA=2
+HASCHILD=0
+HASHEADER=0
+HASFOOTER=0
+TGROUPBY= NULL
+THAVING= NULL
+||
+##
+FILTROS
+IDFILTRO=1576
+IDQUERY=101
+IDREPORT=282
+NCAMPO='V.IDVENTA'
+TVARIABLE='IDVENTA'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1577
+IDQUERY=101
+IDREPORT=282
+NCAMPO='V.IDVENTA'
+TVARIABLE='IDFACTURA'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1578
+IDQUERY=101
+IDREPORT=282
+NCAMPO='V.IDVENTA'
+TVARIABLE='IDTICKET'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1579
+IDQUERY=101
+IDREPORT=282
+NCAMPO='V.IDPRINCIPAL'
+TVARIABLE='IDVENDA2'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1580
+IDQUERY=101
+IDREPORT=282
+NCAMPO='V.IDPRINCIPAL'
+TVARIABLE='IDFACTURA2'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1581
+IDQUERY=101
+IDREPORT=282
+NCAMPO='V.IDPRINCIPAL'
+TVARIABLE='IDTICKET2'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1597
+IDQUERY=101
+IDREPORT=282
+NCAMPO='_P_YENA'
+TVARIABLE='_P_YENA'
+OPERACION='P'
+TIPO=3
+||
+##
+QRP
+IDREPORT=283
+DESCRIPCION='Tiquet redención Yena asesor SCB'
+REPORT=¡¡
+object TAE2_QuickRep
+  Left = 0
+  Top = 0
+  Width = 378
+  Height = 1890
+  Frame.Color = clBlack
+  Frame.DrawTop = False
+  Frame.DrawBottom = False
+  Frame.DrawLeft = False
+  Frame.DrawRight = False
+  DataSet = Query101
+  Description.Strings = (
+    'Hola pepeta')
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = '12.5 cpi [Euro]'
+  Font.Style = []
+  Functions.Strings = (
+    'PAGENUMBER'
+    'COLUMNNUMBER'
+    'REPORTTITLE')
+  Functions.DATA = (
+    '0'
+    '0'
+    #39#39)
+  Options = [FirstPageHeader, LastPageFooter]
+  Page.Columns = 1
+  Page.Orientation = poPortrait
+  Page.PaperSize = Custom
+  Page.Values = (
+    0.000000000000000000
+    5000.000000000000000000
+    0.000000000000000000
+    1000.000000000000000000
+    0.000000000000000000
+    0.000000000000000000
+    0.000000000000000000)
+  PrinterSettings.Copies = 1
+  PrinterSettings.OutputBin = First
+  PrinterSettings.Duplex = False
+  PrinterSettings.FirstPage = 0
+  PrinterSettings.LastPage = 0
+  PrinterSettings.UseStandardprinter = False
+  PrinterSettings.UseCustomBinCode = False
+  PrinterSettings.CustomBinCode = 0
+  PrinterSettings.ExtendedDuplex = 1
+  PrinterSettings.UseCustomPaperCode = False
+  PrinterSettings.CustomPaperCode = 0
+  PrinterSettings.PrintMetaFile = False
+  PrintIfEmpty = False
+  SnapToGrid = True
+  Units = MM
+  Zoom = 100
+  PrevFormStyle = fsNormal
+  PreviewInitialState = wsNormal
+  Exportable = [expCSV]
+  ImpresoraAgulles = True
+  object DetailBand1: TQRBand
+    Left = 0
+    Top = 0
+    Width = 378
+    Height = 426
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    Size.Values = (
+      1127.125000000000000000
+      1000.125000000000000000)
+    BandType = rbDetail
+    object TQRExpr
+      Left = 1
+      Top = 254
+      Width = 320
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        672.041666666666700000
+        846.666666666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = False
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Fecha: '#39' + COPY(Query101.FECHAHORA + repeat('#39' '#39', 16), 1, 16)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -2
+      Top = 20
+      Width = 338
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -5.291666666666667000
+        52.916666666666670000
+        894.291666666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29, 33, 1) + Query101.NOMBREEMPRESA1'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -2
+      Top = 38
+      Width = 352
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -5.291666666666667000
+        100.541666666666700000
+        931.333333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29, 33, 0) + '#39'Suc: '#39'+Query101.NOMBREBASE1'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -2
+      Top = 56
+      Width = 322
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -5.291666666666667000
+        148.166666666666700000
+        851.958333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'N'#186' E.S. G'#39'+Query101.NUMES+'#39'  SIIC. '#39'+Query101.SIIC'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = -2
+      Top = 1
+      Width = 295
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        -5.291666666666667000
+        2.645833333333333000
+        780.520833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(27, 64, 27, 32, 2, 27, 51, 3, 27, 33, 0)'
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 1
+      Top = 236
+      Width = 9
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        624.416666666666700000
+        23.812500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 74
+      Width = 174
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        195.791666666666700000
+        460.375000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'Query101.DIRECCIONBASE1'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 92
+      Width = 520
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        243.416666666666700000
+        1375.833333333333000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        #39'C.P. '#39'+Query101.CPESTABLECIMIENTO+'#39' '#39'+Query101.POBLACIONESTABLE' +
+        'CIMIENTO'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 128
+      Width = 259
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        338.666666666666700000
+        685.270833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Matriz: '#39'+Query101.DIRECCIONEMPRESA1'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 146
+      Width = 410
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        386.291666666666700000
+        1084.791666666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'C.P. '#39'+Query101.CPEMPRESA+'#39' '#39'+Query101.POBLACIONEMPRESA'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 164
+      Width = 196
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        433.916666666666700000
+        518.583333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'Query101.PROVINCIAEMPRESA'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 182
+      Width = 198
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        481.541666666666700000
+        523.875000000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'RFC: '#39'+Query101.RFCEMPRESA'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 1
+      Top = 110
+      Width = 251
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        2.645833333333333000
+        291.041666666666700000
+        664.104166666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'Query101.PROVINCIAESTABLECIMIENTO'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 272
+      Width = 380
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        719.666666666666700000
+        1005.416666666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Ticket  : '#39' + Query559.SUMINISTRO + '#39' - '#39' + Query101.ALBARAN'
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 0
+      Top = 290
+      Width = 9
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        0.000000000000000000
+        767.291666666666700000
+        23.812500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 218
+      Width = 121
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        576.791666666666700000
+        320.145833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'Query101.REGIMEN'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 2
+      Top = 200
+      Width = 343
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        5.291666666666667000
+        529.166666666666700000
+        907.520833333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Expedido en: '#39'+Query101.PROVINCIAESTABLECIMIENTO'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 308
+      Width = 232
+      Height = 18
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        47.625000000000000000
+        0.000000000000000000
+        814.916666666666700000
+        613.833333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Tipo operaci'#243'n: '#39'+Query101.TIPOPAGO'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 327
+      Width = 239
+      Height = 18
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        47.625000000000000000
+        0.000000000000000000
+        865.187500000000000000
+        632.354166666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Folio de seguimiento: '#39'+Query568.FOLIO'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 346
+      Width = 206
+      Height = 18
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        47.625000000000000000
+        0.000000000000000000
+        915.458333333333300000
+        545.041666666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Sesi'#243'n  : '#39'+Query559.SESSION_ID'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 365
+      Width = 274
+      Height = 18
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        47.625000000000000000
+        0.000000000000000000
+        965.729166666666700000
+        724.958333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Autoriz.: '#39'+Query559.AUTH_CODE_PAYMENT'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 384
+      Width = 263
+      Height = 18
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        47.625000000000000000
+        0.000000000000000000
+        1016.000000000000000000
+        695.854166666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = #39'Tarjeta : '#39'+Query559.TARJETAASTERISCOS'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 403
+      Width = 207
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        0.000000000000000000
+        1066.270833333333000000
+        547.687500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = '12.5 cpi [Euro]'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(27,33,0)+repeat('#39'-'#39', 32)'
+      FontSize = 10
+    end
+  end
+  object BSDQuery559: TQRSubDetail
+    Left = 0
+    Top = 426
+    Width = 378
+    Height = 122
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    LinkBand = DetailBand1
+    Size.Values = (
+      322.791666666666700000
+      1000.125000000000000000)
+    DataSet = Query559
+    PrintBefore = False
+    PrintIfEmpty = False
+    object TQRExpr
+      Left = 0
+      Top = 22
+      Width = 856
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        0.000000000000000000
+        58.208333333333330000
+        2264.833333333333000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'IF(Query559.TIPO='#39'APROBADA'#39', '#39'Importe del pago   :'#39', '#39'Intento de' +
+        ' pago    :'#39')+FORMATNUMERIC('#39'##0.000'#39', Query559.BENEFICIO_CONSUMI' +
+        'DO, 9)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 3
+      Width = 611
+      Height = 18
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        47.625000000000000000
+        0.000000000000000000
+        7.937500000000000000
+        1616.604166666667000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 
+        'IF(Query559.TIPO = '#39'APROBADA'#39', Query559.TIPO, Query559.TIPO + '#39'/' +
+        #39'+ Query559.ERROR_MESSAGE)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 0
+      Top = 59
+      Width = 207
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        0.000000000000000000
+        156.104166666666700000
+        547.687500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(27,33,0)+repeat('#39'-'#39', 32)'
+      FontSize = 10
+    end
+  end
+  object SummaryBand1: TQRBand
+    Left = 0
+    Top = 548
+    Width = 378
+    Height = 210
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    Size.Values = (
+      555.625000000000000000
+      1000.125000000000000000)
+    BandType = rbSummary
+    object TQRExpr
+      Left = 6
+      Top = 174
+      Width = 125
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        15.875000000000000000
+        460.375000000000000000
+        330.729166666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29,86,1)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 4
+      Top = 157
+      Width = 136
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        10.583333333333330000
+        415.395833333333300000
+        359.833333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Color = clWhite
+      ParentFont = False
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(27,100, 5)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 400
+      Top = 273
+      Width = 154
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        1058.333333333333000000
+        722.312500000000000000
+        407.458333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29, 104, 125)'
+      FontSize = 10
+    end
+    object TQRExpr
+      Left = 447
+      Top = 265
+      Width = 140
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        1182.687500000000000000
+        701.145833333333300000
+        370.416666666666700000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Color = clWhite
+      ResetAfterPrint = False
+      Transparent = False
+      WordWrap = True
+      Expression = 'EscapeFunc(29, 119, 3)'
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 3
+      Top = 2
+      Width = 9
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        7.937500000000000000
+        5.291666666666667000
+        23.812500000000000000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 3
+      Top = 20
+      Width = 184
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        7.937500000000000000
+        52.916666666666670000
+        486.833333333333300000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '      COPIA PARA EL ASESOR'
+      Color = clWhite
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 6
+      Top = 42
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        15.875000000000000000
+        111.125000000000000000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 6
+      Top = 64
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        15.875000000000000000
+        169.333333333333300000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 6
+      Top = 88
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        15.875000000000000000
+        232.833333333333300000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 9
+      Top = 109
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        23.812500000000000000
+        288.395833333333300000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+    object TQRLabel
+      Left = 10
+      Top = 132
+      Width = 7
+      Height = 17
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Size.Values = (
+        44.979166666666670000
+        26.458333333333330000
+        349.250000000000000000
+        18.520833333333330000)
+      Alignment = taLeftJustify
+      AlignToBand = False
+      AutoSize = True
+      AutoStretch = False
+      Caption = '  '
+      Color = clWhite
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      Transparent = False
+      WordWrap = True
+      FontSize = 10
+    end
+  end
+end
+
+
+¡¡
+PLANTILLA=0
+NINFORME=21474837990
+IDENTIFICACION=0
+EXCLUSIVO=0
+FECHAALTA= '11/20/18 15:04:12'
+FECHAMODI= '08/22/19 19:30:22'
+NOMBREARCHIVO= NULL
+ULTUSUARIO=0
+IDCREADOR=5
+IDINFORME=1510
+STRIDENT='5.1510'
+STRDESCRIPCION='5.1510 - Tiquet redención Yena asesor SCB'
+IDUSERCREADOR='AVILASECA'
+IDUSERULTIMAMODI='AVILASECA'
+NUMVERSION=16
+NUMREVISION=0
+NUMCAMBIO=28
+||
+##
+QRY
+IDQUERY=101
+IDREPORT=283
+DESCRIPCION='CABECERA'
+TSELECT='SELECT V.*,B.*,E.*,T.IMPORTE,E.COMENTARIO NOMBREEMPRESA1,B.COMENTARIO REGIMEN,B.EMAIL NOMBREBASE1,B.NUMINSTALACION NUMES,B.CAE SIIC,B.DIRECCION DIRECCIONBASE1,B.CP CPESTABLECIMIENTO,B.POBLACION POBLACIONESTABLECIMIENTO,B.PROVINCIA PROVINCIAESTABLECIMIENTO,E.DIRECCION DIRECCIONEMPRESA1,E.CP CPEMPRESA,E.POBLACION POBLACIONEMPRESA,E.PROVINCIA PROVINCIAEMPRESA,E.NIF RFCEMPRESA'
+TFROM='FROM VR_VENTAS V LEFT JOIN BASES B ON V.IDBASE=B.IDBASE LEFT JOIN EMPRESAS E ON B.IDEMPRESA=E.IDEMPRESA LEFT JOIN TIPOSPAGO TP ON V.IDTIPOPAGO=TP.IDTIPOPAGO LEFT JOIN TOTALVENTA(V.IDVENTA) T ON 1=1'
+TWHERE='WHERE (TP.TIPOTERMINAL = 56) /*YENA*/ And (V.TICKETIMPRESO = 0)'
+ORDERBY= NULL
+TIPOBD=3
+MASTERQUERY=-1
+TIPOBANDA=1
+HASCHILD=0
+HASHEADER=0
+HASFOOTER=0
+TGROUPBY= NULL
+THAVING= NULL
+||
+IDQUERY=559
+IDREPORT=283
+DESCRIPCION='redencion'
+TSELECT='SELECT FIRST 1 (CASE WHEN S.IDSUMINISTRO IS NULL THEN ''DENEGADA'' ELSE ''APROBADA'' END) TIPO, T.TEXTO1, SB.*,  S.NSUMINISTRO SUMINISTRO,LTRIM(JUSTIFICASTR(SUBSTR(SB.TARJETA,(STRLEN(SB.TARJETA)-3),STRLEN(SB.TARJETA)), STRLEN(SB.TARJETA), ''*'', 1)) TARJETAASTERISCOS'
+TFROM='FROM VENTAS V LEFT JOIN OPERACIONESBNC O ON V.IDVENTA = O.IDVENTA LEFT JOIN SUMINISTROS_BENEFICIO SB ON O.IDOPERACIONBNC = SB.IDOPERACIONBNC LEFT JOIN SUMINISTROS S ON SB.IDSUMINISTRO = S.IDSUMINISTRO LEFT JOIN PR_TEXTOSYENA(NULL, NULL) T ON 1=1'
+TWHERE='WHERE (V.IDVENTA = :IDVENTA) AND (SB.IDOPERACIONBNC IS NOT NULL)'
+ORDERBY='order by 1'
+TIPOBD=3
+MASTERQUERY=101
+TIPOBANDA=2
+HASCHILD=0
+HASHEADER=1
+HASFOOTER=1
+TGROUPBY= NULL
+THAVING= NULL
+||
+IDQUERY=568
+IDREPORT=283
+DESCRIPCION='FOLIO'
+TSELECT='SELECT O.IDOPERACIONBNC FOLIO'
+TFROM='FROM VENTAS V LEFT JOIN OPERACIONESBNC O ON V.IDVENTA = O.IDVENTA'
+TWHERE='WHERE (V.IDVENTA = :IDVENTA) AND (O.TIPOOPERACION = 11)'
+ORDERBY= NULL
+TIPOBD=3
+MASTERQUERY=101
+TIPOBANDA=2
+HASCHILD=0
+HASHEADER=0
+HASFOOTER=0
+TGROUPBY= NULL
+THAVING= NULL
+||
+##
+FILTROS
+IDFILTRO=1598
+IDQUERY=101
+IDREPORT=283
+NCAMPO='V.IDVENTA'
+TVARIABLE='IDVENTA'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1599
+IDQUERY=101
+IDREPORT=283
+NCAMPO='V.IDVENTA'
+TVARIABLE='IDTIQUET'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1600
+IDQUERY=101
+IDREPORT=283
+NCAMPO='V.IDVENTA'
+TVARIABLE='IDFACTURA'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1601
+IDQUERY=101
+IDREPORT=283
+NCAMPO='V.IDPRINCIPAL'
+TVARIABLE='IDVENTA2'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1602
+IDQUERY=101
+IDREPORT=283
+NCAMPO='V.IDPRINCIPAL'
+TVARIABLE='IDTIQUET2'
+OPERACION='='
+TIPO=3
+||
+IDFILTRO=1603
+IDQUERY=101
+IDREPORT=283
+NCAMPO='V.IDPRINCIPAL'
+TVARIABLE='IDFACTURA2'
+OPERACION='='
+TIPO=3
+||
+##
+DEMANA
+IDOPCIONES=847
+IDFILTROS=1598
+IDQUERY=101
+IDCOMPOS=276
+IDREPORT=283
+IDNUMERO=289
+ORDRE= NULL
+||
+IDOPCIONES=848
+IDFILTROS=1599
+IDQUERY=101
+IDCOMPOS=276
+IDREPORT=283
+IDNUMERO=289
+ORDRE= NULL
+||
+IDOPCIONES=849
+IDFILTROS=1600
+IDQUERY=101
+IDCOMPOS=276
+IDREPORT=283
+IDNUMERO=289
+ORDRE= NULL
+||
+IDOPCIONES=847
+IDFILTROS=1576
+IDQUERY=101
+IDCOMPOS=276
+IDREPORT=281
+IDNUMERO=281
+ORDRE= NULL
+||
+IDOPCIONES=848
+IDFILTROS=1578
+IDQUERY=101
+IDCOMPOS=276
+IDREPORT=281
+IDNUMERO=281
+ORDRE= NULL
+||
+IDOPCIONES=849
+IDFILTROS=1577
+IDQUERY=101
+IDCOMPOS=276
+IDREPORT=281
+IDNUMERO=281
+ORDRE= NULL
+||
+IDOPCIONES=847
+IDFILTROS=1582
+IDQUERY=70
+IDCOMPOS=276
+IDREPORT=281
+IDNUMERO=281
+ORDRE= NULL
+||
+IDOPCIONES=847
+IDFILTROS=1576
+IDQUERY=101
+IDCOMPOS=276
+IDREPORT=282
+IDNUMERO=283
+ORDRE= NULL
+||
+IDOPCIONES=848
+IDFILTROS=1578
+IDQUERY=101
+IDCOMPOS=276
+IDREPORT=282
+IDNUMERO=283
+ORDRE= NULL
+||
+IDOPCIONES=849
+IDFILTROS=1577
+IDQUERY=101
+IDCOMPOS=276
+IDREPORT=282
+IDNUMERO=283
+ORDRE= NULL
+||
+IDOPCIONES=847
+IDFILTROS=1598
+IDQUERY=101
+IDCOMPOS=276
+IDREPORT=280
+IDNUMERO=288
+ORDRE= NULL
+||
+IDOPCIONES=848
+IDFILTROS=1599
+IDQUERY=101
+IDCOMPOS=276
+IDREPORT=280
+IDNUMERO=288
+ORDRE= NULL
+||
+IDOPCIONES=853
+IDFILTROS=1596
+IDQUERY=101
+IDCOMPOS=276
+IDREPORT=281
+IDNUMERO=281
+ORDRE= NULL
+||
+IDOPCIONES=849
+IDFILTROS=1600
+IDQUERY=101
+IDCOMPOS=276
+IDREPORT=280
+IDNUMERO=288
+ORDRE= NULL
+||
+IDOPCIONES=853
+IDFILTROS=1597
+IDQUERY=101
+IDCOMPOS=276
+IDREPORT=282
+IDNUMERO=283
+ORDRE= NULL
+||
+##
+QRYBD
+IDCOMPOS=276
+IDBDCOMPOS=238
+IDNUMERO=283
+IDQUERY=567
+IDREPORT=282
+||
+IDCOMPOS=276
+IDBDCOMPOS=238
+IDNUMERO=288
+IDQUERY=568
+IDREPORT=280
+||
+IDCOMPOS=276
+IDBDCOMPOS=238
+IDNUMERO=288
+IDQUERY=101
+IDREPORT=280
+||
+IDCOMPOS=276
+IDBDCOMPOS=238
+IDNUMERO=288
+IDQUERY=559
+IDREPORT=280
+||
+IDCOMPOS=276
+IDBDCOMPOS=238
+IDNUMERO=281
+IDQUERY=566
+IDREPORT=281
+||
+IDCOMPOS=276
+IDBDCOMPOS=238
+IDNUMERO=281
+IDQUERY=101
+IDREPORT=281
+||
+IDCOMPOS=276
+IDBDCOMPOS=238
+IDNUMERO=281
+IDQUERY=5
+IDREPORT=281
+||
+IDCOMPOS=276
+IDBDCOMPOS=238
+IDNUMERO=281
+IDQUERY=70
+IDREPORT=281
+||
+IDCOMPOS=276
+IDBDCOMPOS=238
+IDNUMERO=281
+IDQUERY=302
+IDREPORT=281
+||
+IDCOMPOS=276
+IDBDCOMPOS=238
+IDNUMERO=281
+IDQUERY=558
+IDREPORT=281
+||
+IDCOMPOS=276
+IDBDCOMPOS=238
+IDNUMERO=289
+IDQUERY=101
+IDREPORT=283
+||
+IDCOMPOS=276
+IDBDCOMPOS=238
+IDNUMERO=283
+IDQUERY=101
+IDREPORT=282
+||
+IDCOMPOS=276
+IDBDCOMPOS=238
+IDNUMERO=289
+IDQUERY=559
+IDREPORT=283
+||
+IDCOMPOS=276
+IDBDCOMPOS=238
+IDNUMERO=289
+IDQUERY=568
+IDREPORT=283
+||
+IDCOMPOS=276
+IDBDCOMPOS=238
+IDNUMERO=283
+IDQUERY=559
+IDREPORT=282
+||
